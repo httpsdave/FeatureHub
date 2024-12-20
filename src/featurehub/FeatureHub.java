@@ -9,7 +9,7 @@ public class FeatureHub {
 
     
     public static void main(String[] args) {
-        // Create and display the LoginFrame
+        // Create and display the FrmLogin
         try {
             // Load the SQLite JDBC driver
             Class.forName("org.sqlite.JDBC");
@@ -28,7 +28,7 @@ public class FeatureHub {
             System.out.println("SQL Error: " + e.getMessage());
         }
         
-        LoginFrame loginFrame = new LoginFrame();
+        FrmLogin loginFrame = new FrmLogin();
         loginFrame.setVisible(true);
     }
     
